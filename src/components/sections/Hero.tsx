@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/animations/MagneticButton";
 import { HERO_STATS } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
-import { ArrowRight, ChevronDown, Sparkles, Sun } from "lucide-react";
+import { ArrowRight, ChevronDown, Sparkles } from "lucide-react";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -29,8 +29,6 @@ export function Hero() {
   const smoothProgress = useSpring(scrollYProgress, { damping: 20, stiffness: 100 });
   const bgY = useTransform(smoothProgress, [0, 1], [0, 200]);
   const bgScale = useTransform(smoothProgress, [0, 1], [1, 1.1]);
-  const orbX = useTransform(smoothProgress, [0, 1], [0, 100]);
-  const orbY = useTransform(smoothProgress, [0, 1], [0, -80]);
 
   return (
     <section id="home" className="relative min-h-screen overflow-hidden">

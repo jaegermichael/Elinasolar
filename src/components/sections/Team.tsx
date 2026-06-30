@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { StaggerContainer, StaggerItem } from "@/components/animations/StaggerContainer";
 import { TEAM } from "@/lib/constants";

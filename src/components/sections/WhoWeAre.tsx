@@ -1,12 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { StaggerContainer, StaggerItem } from "@/components/animations/StaggerContainer";
 import { FEATURES } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
-import { ArrowRight, Star, Shield, Zap } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 
 export function WhoWeAre() {
   return (
