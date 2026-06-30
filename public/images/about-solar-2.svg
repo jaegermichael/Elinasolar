@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="abg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0D4C8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#abg2)"/>
+  <!-- Wind turbine -->
+  <rect x="290" y="200" width="10" height="300" fill="#555555"/>
+  <g transform="translate(295,200)">
+    <rect x="-60" y="-6" width="120" height="12" rx="6" fill="#F7B500" opacity="0.8"/>
+    <rect x="-6" y="-60" width="12" height="120" rx="6" fill="#F7B500" opacity="0.6"/>
+  </g>
+  <!-- Green landscape -->
+  <path d="M0 500 Q150 460 300 490 Q450 460 600 500 L600 800 L0 800 Z" fill="#8BC34A" opacity="0.15"/>
+  <path d="M0 550 Q200 520 400 540 Q500 520 600 550 L600 800 L0 800 Z" fill="#8BC34A" opacity="0.1"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="s1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D4C8F"/>
+      <stop offset="100%" stop-color="#1E6BB8"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E6BB8"/>
+      <stop offset="100%" stop-color="#0D4C8F"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A3D73"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="650" cy="80" r="50" fill="#F7B500" opacity="0.8"/>
+  <circle cx="650" cy="80" r="70" fill="#F7B500" opacity="0.15"/>
+  <circle cx="650" cy="80" r="100" fill="#F7B500" opacity="0.08"/>
+  <!-- Solar panels -->
+  <g transform="translate(150,200)">
+    <rect x="0" y="0" width="500" height="250" rx="4" fill="url(#s1)" stroke="#1E6BB8" stroke-width="2"/>
+    <line x1="100" y1="0" x2="100" y2="250" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="250" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="250" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="250" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="50" x2="500" y2="50" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="150" x2="500" y2="150" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#0D4C8F" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Ground -->
+  <rect x="0" y="450" width="800" height="150" fill="#0A0A0A" opacity="0.8"/>
+  <path d="M0 450 Q200 430 400 445 Q600 430 800 450 L800 480 Q600 460 400 475 Q200 460 0 480 Z" fill="#0D4C8F" opacity="0.15"/>
+</svg>

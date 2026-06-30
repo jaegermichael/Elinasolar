@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D4C8F"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E6BB8"/>
+      <stop offset="100%" stop-color="#0A3D73"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky3)"/>
+  <!-- Water tank -->
+  <rect x="250" y="150" width="300" height="250" rx="16" fill="url(#tank)" stroke="#1E6BB8" stroke-width="2" opacity="0.8"/>
+  <rect x="270" y="170" width="260" height="210" rx="10" fill="#0D4C8F" opacity="0.3"/>
+  <!-- Water inside tank -->
+  <rect x="270" y="270" width="260" height="110" rx="8" fill="#1E6BB8" opacity="0.3"/>
+  <!-- Ripples -->
+  <ellipse cx="400" cy="300" rx="80" ry="8" stroke="#1E6BB8" stroke-width="1" opacity="0.4" fill="none"/>
+  <ellipse cx="400" cy="320" rx="100" ry="6" stroke="#1E6BB8" stroke-width="0.8" opacity="0.3" fill="none"/>
+  <!-- Tank stand -->
+  <rect x="280" y="400" width="12" height="50" fill="#555555"/>
+  <rect x="508" y="400" width="12" height="50" fill="#555555"/>
+  <rect x="270" y="450" width="260" height="10" rx="4" fill="#555555"/>
+  <!-- Pipe -->
+  <path d="M400 450 L400 500 Q400 520 380 520 L300 520" stroke="#1E6BB8" stroke-width="6" fill="none" opacity="0.6"/>
+  <!-- Ground -->
+  <rect x="0" y="520" width="800" height="80" fill="#0A0A0A"/>
+</svg>

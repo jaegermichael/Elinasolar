@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="400" cy="400" r="200" fill="#F7B500" opacity="0.08"/>
+  <circle cx="400" cy="400" r="150" fill="#F7B500" opacity="0.12"/>
+  <circle cx="400" cy="400" r="100" fill="#F7B500" opacity="0.18"/>
+  <circle cx="400" cy="400" r="50" fill="#F7B500" opacity="0.25"/>
+  <!-- Rays -->
+  <g opacity="0.06" stroke="#F7B500" stroke-width="2">
+    <line x1="400" y1="50" x2="400" y2="150"/>
+    <line x1="400" y1="650" x2="400" y2="750"/>
+    <line x1="50" y1="400" x2="150" y2="400"/>
+    <line x1="650" y1="400" x2="750" y2="400"/>
+    <line x1="152" y1="152" x2="222" y2="222"/>
+    <line x1="578" y1="578" x2="648" y2="648"/>
+    <line x1="152" y1="648" x2="222" y2="578"/>
+    <line x1="578" y1="222" x2="648" y2="152"/>
+  </g>
+</svg>

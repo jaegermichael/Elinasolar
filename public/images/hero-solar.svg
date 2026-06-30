@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="url(#hero-gradient)"/>
+  <defs>
+    <linearGradient id="hero-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D4C8F"/>
+      <stop offset="40%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+  </defs>
+  <!-- Sun rays -->
+  <g opacity="0.3">
+    <circle cx="1200" cy="-100" r="600" fill="#F7B500" opacity="0.15"/>
+    <circle cx="1400" cy="100" r="400" fill="#F7B500" opacity="0.1"/>
+  </g>
+  <!-- Solar panel grid pattern -->
+  <g opacity="0.05" stroke="#F7B500" stroke-width="1">
+    <line x1="0" y1="200" x2="1920" y2="200"/>
+    <line x1="0" y1="400" x2="1920" y2="400"/>
+    <line x1="0" y1="600" x2="1920" y2="600"/>
+    <line x1="0" y1="800" x2="1920" y2="800"/>
+    <line x1="0" y1="1000" x2="1920" y2="1000"/>
+    <line x1="300" y1="0" x2="300" y2="1080"/>
+    <line x1="600" y1="0" x2="600" y2="1080"/>
+    <line x1="900" y1="0" x2="900" y2="1080"/>
+    <line x1="1200" y1="0" x2="1200" y2="1080"/>
+    <line x1="1500" y1="0" x2="1500" y2="1080"/>
+    <line x1="1800" y1="0" x2="1800" y2="1080"/>
+  </g>
+  <!-- Silhouette landscape -->
+  <g fill="#111111" opacity="0.6">
+    <path d="M0 900 Q200 850 400 880 Q600 820 800 860 Q1000 800 1200 840 Q1400 780 1600 830 Q1800 790 1920 820 L1920 1080 L0 1080 Z"/>
+    <path d="M0 950 Q300 900 600 930 Q900 880 1200 920 Q1500 870 1920 900 L1920 1080 L0 1080 Z"/>
+  </g>
+  <!-- Sun glow effect -->
+  <circle cx="960" cy="400" r="300" fill="#F7B500" opacity="0.08"/>
+  <circle cx="960" cy="400" r="200" fill="#F7B500" opacity="0.12"/>
+</svg>
